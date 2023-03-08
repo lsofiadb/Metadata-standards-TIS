@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* Pseudoclasses*/
+.main-nav__item a:hover {
+    color: green;
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+/* Pseudoelements*/
+.main-nav__item a::after{
+    content: " | ";
+}
+
+.main-content{
+    width: 400px;
+    text-align: justify;
+}
